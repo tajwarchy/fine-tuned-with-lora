@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Conda / venv
+.env
+.venv
+env/
+venv/
+
+# Outputs — model weights (too large for git)
+outputs/
+
+# Logs
+logs/
+*.log
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# HuggingFace cache
+.cache/
+*.arrow
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+docker/volumes/
+
+# Evaluation results (large files)
+evaluation/results/
+
+# Secrets
+.env*
+!.env.example
