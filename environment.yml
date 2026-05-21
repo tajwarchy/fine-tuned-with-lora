@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.11
   - pip
+  - setuptools>=69.5.1        # must be conda-managed so pkg_resources is available
   - pip:
       - torch==2.3.1
       - torchvision==0.18.1
@@ -23,3 +24,4 @@ dependencies:
       - huggingface-hub==0.24.6
       - pyyaml==6.0.2
       - httpx==0.27.0
+      - setuptools>=69.0.0
